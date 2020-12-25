@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+body{
+  background-color:#a99b9f;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.container{
+  width:90%;
+  margin:auto;
+}
+b{
+  color:black;
+}
+h1{
+  text-align:center;
+  margin:0;
+}
+p{
+  font-size:20px;
+  color:#fff;
+}
+.border{
+  width:550px;
+  height:350px; 
+}
+.border1{
+  background-image:linear-gradient(to right,#92b9ce,#435c5e);
+  border-radius:30px;
+  box-shadow:3px 3px 5px #111;
+}
+.border2{
+  background-image:linear-gradient(to top,#be9b7d,#f5f9fa);
+  border-radius:5px 15%;
+  box-shadow:2px 0 3px #111; 
+}
+.border3{
+  background-image:linear-gradient(to left,#3e83a8,#f2f2f3,#f2f2f3,#8a91aa);
+  border-radius:30px 20px 14%;
+  box-shadow:-2px 0 4px #111;
+}
+.border4{
+  background-image:linear-gradient(to top,#4994d6,#afd7ea,#c4d3e2);
+  border-radius:34px 32px 26px 46px;
+  box-shadow:0 4px 2px #111;
+}
+.border5{
+  background-image:linear-gradient(0deg,#19171a,#93808c);
+  border-radius:115px/12px;
+  box-shadow:0 -4px 4px -4px #111;
+}
+.border6{
+  background-image:linear-gradient(45deg,#349260,#43a428,#43a428,#a5a099);
+  border-radius: 55px 35%/ 5% 45%;
+  box-shadow:11px 0 5px -5px #555;
+      
+}
+.border7{
+  background-image:linear-gradient(0deg, #bb3b4b 0%,#bb3b4b 25%,#c68d58 50%,#411e1f 75%,#e0d9a9 100%);
+  border-radius:5%/90% 60% 35%;
+  box-shadow:-5px 0 5px -5px #555,
+    5px 0 5px -5px #555;
+}
+.border8{
+  background-image:linear-gradient(90deg,#808bbd 0%,#f7f6f8 10%,#a5b9c4 20%,#bbad97 50%,#a0a7a8 70%,#e1915a 100%);
+  border-radius:15%/35% 65% 66% 65%;
+}
